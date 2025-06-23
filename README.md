@@ -109,18 +109,18 @@ streamlit run app.py
 # 🐳 Docker Usage (Alternative to Local Setup)
 You can also run this app directly via Docker using the public image on Docker Hub.
 1. Pull the Docker Image
-   docker pull srishtigarg/rag-pdf-app:latest
+   - docker pull srishtigarg/rag-pdf-app:latest
 
 2. Run the Docker Container
-   docker run -p 8501:8501 srishtigarg/rag-pdf-app:latest
+   - docker run -p 8501:8501 srishtigarg/rag-pdf-app:latest
 
 3. Open Your Browser
-   http://localhost:8501
+   - http://localhost:8501
 
 4. Start Using the App
-  Enter your Groq API Key
+   - Enter your Groq API Key
 
-  Upload PDF(s)
+   - Upload PDF(s)
 
   
 
