@@ -2,6 +2,18 @@
 
 A powerful Retrieval-Augmented Generation (RAG) application that enables conversational question-answering with uploaded PDF documents while maintaining chat history. Built with Streamlit, LangChain, and Groq API for seamless document interaction and intelligent responses.
 
+# 🗂️ Project Structure
+
+| File                | Purpose                                         |
+|---------------------|-------------------------------------------------|
+| **.gitignore**      | Ignore unnecessary files in version control     |
+| **README.md**       | Project overview & usage instructions        |
+| **app.py**          | Main Streamlit application                   |
+| **requirements.txt**| Python dependencies for easy setup           |
+| **transformers.pdf**| Sample PDF for testing/documentation         |
+
+---
+
 # Features
 - PDF Upload & Processing: Upload multiple PDF files simultaneously for analysis
 
