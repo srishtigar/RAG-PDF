@@ -1,3 +1,4 @@
+streamlit
 langchain
 python-dotenv
 ipykernel
@@ -19,9 +20,6 @@ pandas
 openai
 langchain-groq
 duckduckgo_search==5.3.1b1
-pymupdf
-arxiv
-wikipedia
 mysql-connector-python
 SQLAlchemy
 validators==0.28.1
