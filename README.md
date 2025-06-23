@@ -18,15 +18,17 @@ A powerful Retrieval-Augmented Generation (RAG) application that enables convers
 
 - Secure API Integration: Protected API key input for Groq services
 
-  # 🗂️ Project Structure
+## 🗂️ Project Structure
 
-| File                | Purpose                                         |
-|---------------------|-------------------------------------------------|
-| **.gitignore**      | Ignore unnecessary files in version control     |
-| **README.md**       | Project overview & usage instructions        |
-| **app.py**          | Main Streamlit application                   |
-| **requirements.txt**| Python dependencies for easy setup           |
-| **transformers.pdf**| Sample PDF for testing/documentation         |
+| File / Folder         | Purpose                                                |
+|-----------------------|--------------------------------------------------------|
+| `.devcontainer/`      | VS Code remote container config for reproducible setup |
+| `.gitignore`          | Specifies files and folders to be ignored by Git       |
+| `Dockerfile`          | Docker instructions for containerizing the app         |
+| `README.md`           | Project overview and usage guide (this file)           |
+| `app.py`              | Main Streamlit application logic                       |
+| `requirements.txt`    | Python dependencies for local and Docker setup         |
+| `transformers.pdf`    | Sample PDF file for testing the app                    |
 
 ---
 
