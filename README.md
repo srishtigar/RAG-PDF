@@ -43,18 +43,18 @@ pip install -r requirements.txt
 
 ### 3. Configure environment variables
 Create `.env` file:
-#### OpenAI
+- OpenAI
 OPENAI_API_KEY
 
-#### LangChain
+- LangChain
 LANGCHAIN_API_KEY
 LANGCHAIN_PROJECT
 
-#### HuggingFace
+- HuggingFace
 HF_TOKEN
 HUGGINGFACEHUB_API_TOKEN
 
-#### Groq
+- Groq
 GROQ_API_KEY
 
 ## Usage
