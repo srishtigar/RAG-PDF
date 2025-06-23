@@ -32,19 +32,68 @@ A powerful Retrieval-Augmented Generation (RAG) application that enables convers
 
 # Prerequisites
 
-### OpenAI
+##  Installation & Setup
+### 1. Create virtual environment
+python -m venv rag_env
+
+
+### 2. Install dependencies
+pip install -r requirements.txt
+
+
+### 3. Configure environment variables
+Create `.env` file:
+#### OpenAI
 OPENAI_API_KEY
 
-### LangChain
+#### LangChain
 LANGCHAIN_API_KEY
 LANGCHAIN_PROJECT
 
-### HuggingFace
+#### HuggingFace
 HF_TOKEN
 HUGGINGFACEHUB_API_TOKEN
 
-### Groq
+#### Groq
 GROQ_API_KEY
+
+## Usage
+1. Start the app:
+   streamlit run app.py
+
+   2. Open `http://localhost:8501` in browser
+3. Enter Groq API key
+4. Upload PDF files
+5. Start chatting with your documents!
+
+## 🔧 Configuration
+| Parameter          | Value                          | Description                     |
+|--------------------|--------------------------------|---------------------------------|
+| **Chunk Size**     | 5000 characters               | Document splitting size         |
+| **Chunk Overlap**  | 500 characters                | Overlap between document chunks |
+| **Embedding Model**| all-MiniLM-L6-v2              | HuggingFace embedding model     |
+| **LLM**            | Gemma2-9b-It                  | Groq language model             |
+
+## Key Components
+1. **Document Processing**:
+   - PDF loading with PyPDFLoader
+   - Text splitting with RecursiveCharacterTextSplitter
+   - Embedding generation with HuggingFace
+
+2. **Conversational RAG**:
+   - History-aware retriever with contextualization
+   - Retrieval chain with document context
+   - Session-based chat history management
+
+3. **Streamlit UI**:
+   - PDF uploader with multi-file support
+   - Session ID management
+   - Interactive chat interface
+
+
+
+
+
 
 
 
