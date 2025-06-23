@@ -121,8 +121,21 @@ You can also run this app directly via Docker using the public image on Docker H
    - Enter your Groq API Key
 
    - Upload PDF(s)
-
   
+---
+
+## 🌐 Live Demo on Render
+
+     App is also deployed using **Render** for public access.
+
+### 🔗 Deployment 
+     Can access the Streamlit app at: URLhttps://rag-pdf.onrender.com
+
+```text
+https://<your-app-name>.onrender.com
+
+![Live Render Deployment](render-deploy.png)
+
 
 
 
