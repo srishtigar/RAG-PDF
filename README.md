@@ -105,16 +105,27 @@ streamlit run app.py
    - PDF uploader with multi-file support
    - Session ID management
    - Interactive chat interface
+  
+# Deployments
+- Docker Hub:
+  
+  Run anywhere with Docker:
+  
+  docker pull srishtigarg/rag-pdf-app:latest
+
+- Render.com:
+  
+  Live public hosting with auto-redeploy from GitHub.
 
 # 🐳 Docker Usage (Alternative to Local Setup)
-You can also run this app directly via Docker using the public image on Docker Hub.
+Can also run this app directly via Docker using the public image on Docker Hub.
 1. Pull the Docker Image
    - docker pull srishtigarg/rag-pdf-app:latest
 
 2. Run the Docker Container
    - docker run -p 8501:8501 srishtigarg/rag-pdf-app:latest
 
-3. Open Your Browser
+3. Open Browser
    - http://localhost:8501
 
 4. Start Using the App
@@ -125,16 +136,38 @@ You can also run this app directly via Docker using the public image on Docker H
 ---
 
 ## 🌐 Live Demo on Render
+ App is also deployed using **Render** for public access.
 
-     App is also deployed using **Render** for public access.
+1. Go to Render.com and create a new Web Service
+### Connect your GitHub repo: srishtigar/RAG-PDF
 
 ### 🔗 Deployment 
     Can access the Streamlit app at: URLhttps://rag-pdf.onrender.com
 
-```text
-https://<your-app-name>.onrender.com
 
 ![Live Render Deployment](render-deploy.png)
+
+# How to Use
+- Local/Streamlit:
+
+Run streamlit run app.py
+
+Open http://localhost:8501
+
+Enter your API keys if prompted
+
+Upload PDF(s) and start chatting!
+
+- Docker:
+
+Open http://localhost:8501
+
+- Render.com:
+
+Visit Render public URL after deploy
+
+Use the app from anywhere, no setup needed
+
 
 
 
