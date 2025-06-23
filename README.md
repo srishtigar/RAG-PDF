@@ -136,37 +136,34 @@ Can also run this app directly via Docker using the public image on Docker Hub.
 ---
 
 ## 🌐 Live Demo on Render
- App is also deployed using **Render** for public access.
+This app is deployed on Render for public access.
 
 1. Go to Render.com and create a new Web Service
-### Connect your GitHub repo: srishtigar/RAG-PDF
+### Connect your GitHub repo: srishtigar/RAG-PDF 
+### 🔗 Live App URL  
+Access the Streamlit app at: [https://rag-pdf.onrender.com](https://rag-pdf.onrender.com)
 
-### 🔗 Deployment 
-    Can access the Streamlit app at: URLhttps://rag-pdf.onrender.com
 
 
 ![Live Render Deployment](render-deploy.png)
 
-# How to Use
-- Local/Streamlit:
+## How to Use
 
-Run streamlit run app.py
+### 🖥️ Local (Streamlit)
+1. Run: `streamlit run app.py`  
+2. Open: `http://localhost:8501`  
+3. Upload PDF(s) and chat!
 
-Open http://localhost:8501
+### 🐳 Docker
+1. Run: `docker run -p 8501:8501 srishtigarg/rag-pdf-app:latest`  
+2. Open: `http://localhost:8501`
 
-Enter your API keys if prompted
+### 🌐 Render (Deployed)
+- Visit: [https://rag-pdf.onrender.com](https://rag-pdf.onrender.com)  
+- No setup required — ready to go!
 
-Upload PDF(s) and start chatting!
 
-- Docker:
 
-Open http://localhost:8501
-
-- Render.com:
-
-Visit Render public URL after deploy
-
-Use the app from anywhere, no setup needed
 
 
 
