@@ -48,10 +48,12 @@ OPENAI_API_KEY
 
 - LangChain
 LANGCHAIN_API_KEY
+
 LANGCHAIN_PROJECT
 
 - HuggingFace
 HF_TOKEN
+
 HUGGINGFACEHUB_API_TOKEN
 
 - Groq
@@ -59,9 +61,10 @@ GROQ_API_KEY
 
 ## Usage
 1. Start the app:
-   streamlit run app.py
+   
+streamlit run app.py
 
-   2. Open `http://localhost:8501` in browser
+2. Open `http://localhost:8501` in browser
 3. Enter Groq API key
 4. Upload PDF files
 5. Start chatting with your documents!
